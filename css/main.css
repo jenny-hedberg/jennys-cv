@@ -1,0 +1,263 @@
+/****** Global Styles ******/
+
+
+
+/***** font-family: 'Galada', cursive;
+
+font-family: 'Montserrat', sans-serif;
+ ****/
+
+body {
+    font-family: 'Source Sans 3', sans-serif;
+    color: #5e5d5e
+}
+
+.content-wrapper {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+/****** Header Styles ******/
+.homepage-hero {
+
+
+    background: url("../img/full-background.png"), #f9efef;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+header h1 {
+    float: left;
+    width: 300px;
+    font-family: 'Lora', serif;
+    font-size: 30px;
+    color: #7b7e54;
+    padding: 65px 0 65px 25px;
+
+}
+
+header nav {
+    width: 800px;
+    float: right;
+    text-align: right;
+    padding: 75px 25px 75px 0;
+}
+
+nav ul li {
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #727172;
+    padding-left: 80px;
+}
+
+
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Lora', serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #817f80;
+    padding: 20px 0 20px 25px;
+
+}
+
+
+/****** About Styles ******/
+#om .content-wrapper {
+    padding: 40px 0 20px 0;
+}
+
+#om h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    width: 500px;
+    padding-left: 80px;
+}
+
+#om p {
+    float: left;
+    width: 500px;
+    font-size: 20px;
+    line-height: 40px;
+    padding: 0 80px;
+}
+
+.profilbild {
+    width: 400px;
+    height: 500px;
+    float: left;
+    padding: 0 70px;
+    margin: 20px auto;
+
+}
+
+/****** Skill Styles ******/
+
+#kunskap {
+    background-color: #f5f5f5;
+    text-align: center;
+}
+
+#kunskap .content-wrapper {
+    padding: 50px 115px;
+
+}
+
+#kunskap .skill-list {
+    float: left;
+    width: 300px;
+    padding: 0 50px;
+}
+
+#kunskap h2 {
+    font-family: 'Lora', serif;
+    font-size: 36px;
+    padding-bottom: 40px;
+}
+
+#kunskap h3 {
+    font-size: 24px;
+    line-height: 36px;
+    margin: 30px 0 20px 0;
+
+}
+
+#kunskap p {
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+}
+/****** Portfolio ****/
+
+
+#portfolio {
+    background-color: #d4d5cb;
+    text-align: center;
+}
+
+#portfolio .content-wrapper{
+    padding: 60px 110px;
+}
+
+#portfolio h2 {
+    font-family: 'Lora', serif;
+    text-align: center;
+    font-size: 36px;
+    margin: 40px;
+}
+
+#portfolio .pickings {
+    float: left;
+    width: 500px;
+    padding: 0 70px;
+
+}
+
+#portfolio #portfolioett{
+    width: 500px;
+    height: auto;
+}
+
+#portfolio .square {
+    float: left;
+    width: 500px;
+    padding: 0 10px 0 40px;
+
+}
+#portfolio img {
+    width: 350px;
+}
+#portfolio h3 {
+    font-family: 'Lora', serif;
+    text-decoration: underline;
+    color: #5e5d5e;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*******Contact Styles ******/
+#kontakt {
+    background-color: #cac6c6;
+}
+
+#kontakt .content-wrapper {
+    padding: 110px 0;
+}
+
+#kontakt .contact-image {
+    float: left;
+    width: 600px;
+
+}
+
+#kontakt #contact-img {
+    width: 500px;
+    height: 300px;
+    border: 12px solid #ffffff;
+    margin: 0 50px;
+    box-sizing: border-box;
+}
+
+#kontakt .contact-info {
+    float: left;
+    width: 600px;
+    padding-left: 100px;
+    box-sizing: border-box;
+}
+
+#kontakt h2 {
+    font-family: "Lora", serif;
+    font-weight: 600;
+    font-size: 36px;
+    margin: 30px 0;
+}
+
+#kontakt h3 {
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+#kontakt #email-header {
+
+    margin-bottom: 5px;
+
+}
+
+#kontakt #socialmedia-header {
+    margin: 20px 0 5px 0;
+
+}
+
+#kontakt #envelope {
+    padding-right: 10px;
+}
+
+#kontakt a {
+    text-decoration: none;
+    color: #5e5d5e;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#kontakt ul {
+    margin-top: 0;
+    padding-left: 0;
+
+}
+
+#kontakt ul li {
+    display: inline-block;
+}
+
+#kontakt ul img {
+    padding-right: 40px;
+}
