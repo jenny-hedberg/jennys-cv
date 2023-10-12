@@ -157,7 +157,7 @@ header h2 {
 #portfolio .pickings {
     float: left;
     width: 500px;
-    padding: 0 70px;
+    padding: 0 20px;
 
 }
 
@@ -169,19 +169,14 @@ header h2 {
 #portfolio .square {
     float: left;
     width: 500px;
-    padding: 0 10px 0 40px;
+    padding-right: 90px;
+    padding-left: 50px;
 
 }
 #portfolio img {
-    width: 350px;
+    width: 450px;
 }
-#portfolio h3 {
-    font-family: 'Lora', serif;
-    text-decoration: underline;
-    color: #5e5d5e;
-    padding: 0px;
-    margin: 0px;
-}
+
 
 /*******Contact Styles ******/
 #kontakt {
